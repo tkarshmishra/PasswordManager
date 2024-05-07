@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassManager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div>
+            <img src="logopass1.png" alt="" width="100px">
+        </div>
+        <div class="logoname">
+            U@Manager
+         </div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+
+    </nav>
+    <div class="container">
+        <h1>Password Manager</h1>
+
+        <p>"Welcome to our secure password manager! 🛡️ We're delighted to have you here. Your online security is our top priority, and we're here to ensure your peace of mind. Feel free to manage your passwords effortlessly and safeguard your digital identity with ease. If you have any questions or need assistance, don't hesitate to reach out. Happy password managing!"</p>
+
+
+        <h2>Your Password</h2>
+
+        <table>
+            <tr>
+              <th>Website</th>
+              <th>Username</th>
+              <th>Password</th>
+              <th>Delete</th>
+            </tr>
+           
+          </table>
+          
+        <h2>Add a Password</h2>
+        <form action="/submit" method="post">
+            <div class="aboveform">
+
+            <label for="website">Website    :   </label>
+            <input type="text" id="website" name="website" required>
+            <br><br>
+
+
+                 <!-- Text input for username -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+        
+            <!-- Password input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            </div>
+            <div class="sumitit">
+                 <!-- Submit button -->
+            <button class="btn" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+        <footer>
+          <div class="footer"> &copy Copyright | UManager.com | All right reserved by Utkarsh Mishra.</div>
+          
+        </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
